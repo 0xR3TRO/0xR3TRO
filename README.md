@@ -1,6 +1,16 @@
-# 💫 About Me:
-🔭 I Work as a front-end developer <br>🤝 Looking for help with back-end developer<br>🌱 I'm currently learning React and Python advanced<br>💬 Ask me about anything related to website development
+🔐 Cybersecurity Enthusiast | Code by Day, Defend by Night 🌙
 
+Hello! I'm Oliwier (0xR3TRO), a cybersecurity aficionado with a passion for threat analysis, system penetration, and fortifying digital defenses.
 
-# 💻 Tech Stack:
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+💼 Currently working as a freelancer, I design, implement, and monitor comprehensive security strategies. Through risk analysis and penetration testing, I help identify vulnerabilities in infrastructure and applications, aiming to create an impenetrable defense layer.
+
+🔍 My areas of interest include:
+- Threat analysis and risk assessment
+- System penetration
+- Application security
+- Security event monitoring
+- Cybersecurity education
+
+🚀 In today's dynamic and globalized world, I believe cybersecurity is pivotal, enabling us to harness the full potential of technology. I'm eager to share my knowledge and experience, so you'll find projects, tutorials, and articles related to information security on my profile.
+
+🌐 Feel free to get in touch and collaborate. Together, we can build a more secure digital world. 💪
