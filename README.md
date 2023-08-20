@@ -1,5 +1,5 @@
 # 🔒 Cybersecurity Enthusiast
-_  Coding by Day, Defending by Night 🌙 _
+Coding by Day, Defending by Night 🌙
 
 Greetings! I am Oliwier (0xR3TRO), a fervent devotee of cybersecurity, fueled by a fervor for threat analysis, system penetration, and bolstering digital defenses. I am deeply engaged in the world of Apple's ecosystem and actively involved in the realm of cryptocurrencies, with a diverse portfolio of blockchain projects.
 
