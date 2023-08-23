@@ -1,7 +1,7 @@
 # 🔒 Cybersecurity Enthusiast
 *Coding by Day, Defending by Night* 🌙
 
-Greetings! I am Oliwier (0xR3TRO), a fervent devotee of cybersecurity, fueled by a fervor for threat analysis, system penetration, and bolstering digital defenses. I am deeply engaged in the world of Apple's ecosystem and actively involved in the realm of cryptocurrencies, with a diverse portfolio of blockchain projects. You can find out more about me on the [About me](ABOUTME.md) page.
+Greetings! I am Oliwier (0xR3TRO), a fervent devotee of cybersecurity, fueled by a fervor for threat analysis, system penetration, and bolstering digital defenses. I am deeply engaged in the world of Apple's ecosystem and actively involved in the realm of cryptocurrencies, with a diverse portfolio of blockchain projects. You can find out more about me on the [About me](ABOUT-ME.md) page.
 
 ## 💼 Current Endeavors
 Currently, I function as a self-employed freelancer. My pursuits entail the formulation, implementation, and meticulous supervision of holistic security strategies. Through the utilization of risk assessment and penetration testing, I contribute to the identification of susceptibilities within frameworks and applications, with the ultimate objective of establishing an impenetrable defensive layer. Further insights into my professional experience can be explored on the [Professional Experience](WORK-EXPERIENCE.md) page.
