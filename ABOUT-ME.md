@@ -1,6 +1,5 @@
 # About Me
 
-## 🔒 Cybersecurity Enthusiast
 *Coding by Day, Defending by Night* 🌙
 
 Greetings! I am Oliwier, known as 0xR3TRO in the cybersecurity realm. My passion lies in the dynamic world of cybersecurity, where I am driven by an insatiable curiosity for threat analysis, system penetration, and fortifying digital defenses against an ever-evolving landscape of digital risks. With a strong dedication to maintaining the integrity of digital systems, I find myself engrossed in the intricate complexities of safeguarding sensitive information.
