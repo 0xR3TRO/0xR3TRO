@@ -1,4 +1,4 @@
-## 🚀 Web Development and Design Mastery
+## 🚀 Web Development and Design Mastery 
 
 ### 🛠️ Crafting Websites from Scratch
 Imagine a blank canvas turning into a captivating digital masterpiece. That's what I do. I'm skilled at weaving code with creativity to bring web pages to life using HTML and CSS.
@@ -11,8 +11,6 @@ Cyber threats, meet your match. I build digital fortresses armed with security p
 
 ### ⚡ Speed and Performance Alchemist
 Slow websites? Not on my watch. I optimize websites for lightning-fast loading times and seamless interactions. A smooth user experience is the hallmark of my optimized websites.
-
-#
 
 ## 💻 Programming Prowess
 
