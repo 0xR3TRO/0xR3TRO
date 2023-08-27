@@ -1,5 +1,3 @@
-# My Skills
-
 ## 🚀 Web Development and Design Mastery
 
 ### 🛠️ Crafting Websites from Scratch
@@ -13,6 +11,8 @@ Cyber threats, meet your match. I build digital fortresses armed with security p
 
 ### ⚡ Speed and Performance Alchemist
 Slow websites? Not on my watch. I optimize websites for lightning-fast loading times and seamless interactions. A smooth user experience is the hallmark of my optimized websites.
+
+#
 
 ## 💻 Programming Prowess
 
