@@ -3,13 +3,13 @@
 Welcome to my contact hub! 🌟 Whether you're eager to dive into project discussions, brainstorm creative ideas, or simply exchange friendly greetings, I'm thrilled to connect with you. Feel free to reach out through any of the following means:
 
 ## 📧 Email 💌
-Feel free to drop me an email at [coming@soon.com](mail@mail.com). I make sure to check my inbox regularly and will respond promptly.
+Feel free to drop me an email at **coming@soon.com**. I make sure to check my inbox regularly and will respond promptly.
 
 ## 💬 Social Media 🌐
 Connect with me on social media:
 
-- **Twitter**: [@YourTwitterHandle](https://twitter.com/YourTwitterHandle)
-- **LinkedIn**: [YourLinkedInProfile](https://www.linkedin.com/in/YourLinkedInProfile)
+- [**Twitter** ](https://twitter.com/home)
+- **LinkedIn** [YourLinkedInProfile](https://www.linkedin.com/in/YourLinkedInProfile)
 
 ## 🌐 Portfolio Website 🚀
 Explore my [portfolio website](https://www.yourportfoliowebsite.com) to discover my past projects, skills, and expertise.
