@@ -3,7 +3,7 @@
 Welcome to my contact hub! 🌟 Whether you're eager to dive into project discussions, brainstorm creative ideas, or simply exchange friendly greetings, I'm thrilled to connect with you. Feel free to reach out through any of the following means:
 
 ## 📧 Email 💌
-Feel free to drop me an email at [your.email@example.com](mailto:your.email@example.com). I make sure to check my inbox regularly and will respond promptly.
+Feel free to drop me an email at [coming@soon.com](mail@mail.com). I make sure to check my inbox regularly and will respond promptly.
 
 ## 💬 Social Media 🌐
 Connect with me on social media:
