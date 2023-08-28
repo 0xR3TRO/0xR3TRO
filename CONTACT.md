@@ -8,14 +8,14 @@ Feel free to drop me an email at **coming@soon.com**. I make sure to check my in
 ## 💬 Social Media 🌐
 Connect with me on social media:
 
-- [**Twitter** ](https://twitter.com/home)
-- **LinkedIn** [YourLinkedInProfile](https://www.linkedin.com/in/YourLinkedInProfile)
+- [**Twitter** ](https://twitter.com)
+- [**LinkedIn**](https://linkedin.com)
 
-## 🌐 Portfolio Website 🚀
-Explore my [portfolio website](https://www.yourportfoliowebsite.com) to discover my past projects, skills, and expertise.
+<!-- ## 🌐 Portfolio Website 🚀
+Explore my [portfolio website](https://blank) to discover my past projects, skills, and expertise.
 
 ## 📝 Blog ✍️
-I maintain a [blog](https://www.yourblog.com) where I share insights, tutorials, and thoughts on various tech topics. Dive into the world of coding with me!
+I maintain a [blog](https://blank) where I share insights, tutorials, and thoughts on various tech topics. Dive into the world of coding with me! -->
 
 ## 👩‍💻 For Fellow Developers 👨‍💻
 Calling all developers and tech enthusiasts! If you're passionate about coding and tech, let's connect and collaborate. Here are some ways we can team up:
