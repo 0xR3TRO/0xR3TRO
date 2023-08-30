@@ -19,6 +19,8 @@ For a comprehensive list of my professional experience and the skills I possess 
 ## 🚀 Vision
 In today's ever-evolving and interconnected world, I steadfastly believe that cybersecurity stands as a linchpin, affording us the ability to fully harness technological potential. My enthusiasm for disseminating knowledge and sharing experiences is evident in the collection of projects, tutorials, and articles pertaining to information security housed on my profile.
 
+For a more comprehensive insight into my vision and mission in the realm of cybersecurity, I invite you to explore my [vision page](VISION.md). This page encapsulates my aspirations, goals, and the impact I aspire to make in fortifying digital landscapes against emerging threats.
+
 ## 🌐 Let's Collaborate
 Please do not hesitate to initiate contact for potential collaboration. United, we possess the capability to construct a digital world fortified with enhanced security. 💪
 
