@@ -1,7 +1,7 @@
 # 🛠️ Professional Experience
 
 ## Freelance Web Designer
-**Self-Employed** | City, Country | Date - Present
+**Self-Employed** | Poland | 2021 - 2023
 
 As a freelance web designer, I specialize in crafting visually appealing and user-centric websites for various clients. My responsibilities include:
 
@@ -12,7 +12,7 @@ As a freelance web designer, I specialize in crafting visually appealing and use
 - Providing ongoing support and updates to ensure websites remain functional and up-to-date.
 
 ## Web Development Freelancer
-**Freelance Work** | City, Country | Date - Date
+**Freelance Work** | Poland | 2019 - 2023
 
 During my time as a web development freelancer, I contributed to creating impactful online presences for clients. My contributions involved:
 
@@ -23,7 +23,7 @@ During my time as a web development freelancer, I contributed to creating impact
 - Providing technical guidance and troubleshooting assistance to clients.
 
 ## Personal Brand Development & E-commerce
-**Self-Managed Projects** | City, Country | Date - Date
+**Self-Managed Projects** | Poland | 2020 - 2022
 
 I embarked on personal brand development and e-commerce initiatives, managing online stores and social media presence. My roles encompassed:
 
@@ -36,4 +36,4 @@ I embarked on personal brand development and e-commerce initiatives, managing on
 
 - "Google Web Revolutions" Google, December 2022
 
-Feel free to reach out if you'd like to learn more about my professional experiences or discuss potential collaborations. You can connect with me on [LinkedIn](https://www.linkedin.com/in/YourLinkedInProfile) or email me at [your.email@example.com](mailto:your.email@example.com).
+Feel free to reach out if you'd like to learn more about my professional experiences or discuss potential collaborations. You can connect with me on [LinkedIn](https://www.linkedin.com/home) or email me at [mail@soon.com](mait@soon.com).
