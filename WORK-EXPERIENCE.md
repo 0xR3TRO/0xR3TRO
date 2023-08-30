@@ -34,6 +34,6 @@ I embarked on personal brand development and e-commerce initiatives, managing on
 
 # 🏆 Certifications
 
-- "Google Web Revolutions" Google, December 2022
+- "*Google Web Revolutions*" Google, December 2022
 
-Feel free to reach out if you'd like to learn more about my professional experiences or discuss potential collaborations. You can connect with me on [LinkedIn](https://www.linkedin.com/home) or email me at [mail@soon.com](mait@soon.com).
+Feel absolutely free to get in touch if you're interested in delving deeper into my professional journey or exploring possibilities for potential collaborations. I welcome any inquiries you might have. You can connect with me on [LinkedIn](https://linkedin.com/home) to engage in more meaningful conversations or drop me an email at [mail@soon.com](mail@soon.com). Additionally, for a more comprehensive overview of how we can work together and my various contact methods, please visit my [contact page](CONTACT.md). Looking forward to connecting with you!
