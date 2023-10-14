@@ -1,3 +1,4 @@
+<!-- Website created by 0xR3TR0. All rights reserved. -->
 ## 🚀 Mastery in Web Development and Design
 
 ### 🛠️ Crafting Websites

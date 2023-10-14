@@ -1,3 +1,4 @@
+<!-- Website created by 0xR3TR0. All rights reserved. -->
 # About Me
 
 *Coding by Day, Defending by Night* 🌙
