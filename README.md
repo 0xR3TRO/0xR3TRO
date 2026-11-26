@@ -1,38 +1,43 @@
-<!-- Website created by 0xR3TR0. All rights reserved. -->
-# 🔒 Cybersecurity Enthusiast
-*Coding by Day, Defending by Night* 🌙
+# 0xR3TRO
 
-Greetings! I am Oliwier (0xR3TRO), a fervent devotee of cybersecurity, fueled by a fervor for threat analysis, system penetration, and bolstering digital defenses. I am deeply engaged in the world of Apple's ecosystem and actively involved in the realm of cryptocurrencies, with a diverse portfolio of blockchain projects. You can find out more about me on the [About me](ABOUT-ME.md) page.
+> **0xR3TRO builds verifiable systems for adversarial digital environments.**
 
-## 💼 Current Endeavors
-Currently, I function as a self-employed freelancer. My pursuits entail the formulation, implementation, and meticulous supervision of holistic security strategies. Through the utilization of risk assessment and penetration testing, I contribute to the identification of susceptibilities within frameworks and applications, with the ultimate objective of establishing an impenetrable defensive layer. Further insights into my professional experience can be explored on the [Professional Experience](WORK-EXPERIENCE.md) page.
+From cryptography, identity and on-chain data, through signal correlation and evidence analysis, to controlled operational action: 0xR3TRO combines cyber security, Web3, AI engineering and platform engineering into one measurable ecosystem.
 
-## 🔍 Areas of Expertise
-My spheres of interest span:
-- Scrutiny of threats and assessment of risks.
-- Mastery of system penetration.
-- Safeguarding application security.
-- Vigilant monitoring of security events.
-- Propagation of cybersecurity education.
+AI is a technology layer, not the goal. Blockchain is used only where it adds real value: as the core of the problem, as a trust and verification layer, or as the threat environment under study. Every module must answer a real problem, show a measurable effect and state how errors, abuse and operational risk are contained.
 
-For a comprehensive list of my professional experience and the skills I possess and utilize in my work, please refer to the [Skills](SKILL.md) page.
+## Programs
 
-## 🚀 Vision
-In today's ever-evolving and interconnected world, I steadfastly believe that cybersecurity stands as a linchpin, affording us the ability to fully harness technological potential. My enthusiasm for disseminating knowledge and sharing experiences is evident in the collection of projects, tutorials, and articles pertaining to information security housed on my profile.
+| Program | Purpose | Modules |
+| --- | --- | --- |
+| **FOUNDATION PROTOCOL** | Shared event contracts, telemetry, automation runtime, assurance and observability | 0xS3NT1N3L, 0xF0RG3, PR00FCHAIN, N0CTURN |
+| **SOC SIGNAL NETWORK** | End-to-end flow from signal to case to operator decision | S1GNAL-MESH, PR1SM-CASE, 1NT3LGR4PH, N3XUS-C0NS0L3 |
+| **VERIFIABLE INTELLIGENCE** | AI engineering that supports decisions without losing provability | V3R1TAS, N0M1N4L, BL4CK-1C3 |
+| **TRUST FABRIC** | Cryptography, identity, evidence integrity and Web3 where it earns its place | C1PH3R-VAULT, M3RKLE-LENS, D1D-ATLAS |
+| **ONCHAIN THREAT SURFACE** | Blockchain protocols and transactions analysed as an operational and adversarial environment | CHAIN//FAULT, 0xLEDGER |
+| **OPERATIONS REFERENCE** | One reference deployment that proves the whole ecosystem works | 0xC0R3-OPS |
 
-For a more comprehensive insight into my vision and mission in the realm of cybersecurity, I invite you to explore my [vision page](VISION.md). This page encapsulates my aspirations, goals, and the impact I aspire to make in fortifying digital landscapes against emerging threats.
+## Modules and lifecycle
 
-## 🌐 Let's Collaborate
-Please do not hesitate to initiate contact for potential collaboration. United, we possess the capability to construct a digital world fortified with enhanced security. 💪
+Lifecycle: Planned → Created-private → Bootstrapped → Vertical-slice → Internal-verified → Public-release → Maintained/Archived.
+Modules are linked here only after they reach **Public-release**.
 
-Should you wish to engage in a fruitful partnership, my contact details are conveniently available on the [Contact](CONTACT.md) page
-<!-- 
-<img align="left" alt="HTML" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-<img align="left" alt="CSS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-<img align="left" alt="JavaScript" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-<img align="left" alt="React" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-<img align="left" alt="NodeJS" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-<img align="left" alt="Python" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
-<img align="left" alt="GitHub" width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-
-<br/> -->
+| Module | Function | State |
+| --- | --- | --- |
+| 0xS3NT1N3L | Event provenance and telemetry fabric | Created-private |
+| 0xF0RG3 | Policy-bound workflow execution runtime | Created-private |
+| PR00FCHAIN | Software and model assurance gate | Created-private |
+| N0CTURN | Operational observability and model telemetry | Created-private |
+| S1GNAL-MESH | Alert correlation and risk fusion | Created-private |
+| PR1SM-CASE | Evidence-first incident workspace | Created-private |
+| 1NT3LGR4PH | Provenance-aware threat intelligence graph | Created-private |
+| N3XUS-C0NS0L3 | Evidence-first analyst control surface | Created-private |
+| V3R1TAS | Citation-bound technical evidence search | Created-private |
+| N0M1N4L | Abstaining decision and policy engine | Created-private |
+| BL4CK-1C3 | Adversarial regression laboratory | Created-private |
+| C1PH3R-VAULT | Sealed evidence and key lifecycle | Created-private |
+| M3RKLE-LENS | Tamper-evident evidence anchoring | Created-private |
+| D1D-ATLAS | Decentralized identity and authorization laboratory | Created-private |
+| CHAIN//FAULT | Smart-contract and protocol security workbench | Created-private |
+| 0xLEDGER | On-chain transaction intelligence | Created-private |
+| 0xC0R3-OPS | Secure operations reference deployment | Created-private |
