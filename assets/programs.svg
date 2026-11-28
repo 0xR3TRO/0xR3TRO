@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 294" width="100%" role="img" aria-label="0xR3TRO 6 Programs Architecture">
+  <style>
+    .mono-hdr { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.5px; }
+    .mono-num-idx { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; font-weight: 700; }
+    .mono-card-title { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.4px; }
+    .sans-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 10.5px; }
+    .mono-pill { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 8.5px; }
+    .mono-xxs { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 9px; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="293" rx="10" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+
+  <text x="20" y="29" class="mono-hdr" fill="#8b949e">ecosystem // <tspan fill="#e6edf3">6 programs · 17 modules</tspan></text>
+  <rect x="676" y="14" width="188" height="22" rx="11" fill="#0f2419" stroke="#1f5132" stroke-width="1"/>
+  <text x="770" y="28.5" text-anchor="middle" class="mono-xxs" fill="#39d353">STATE: 17 CREATED-PRIVATE</text>
+
+  
+  <g>
+    <rect x="16" y="48" width="274" height="108" rx="9" fill="#121820" stroke="#21262d" stroke-width="1"/>
+    <rect x="16" y="62" width="3" height="24" rx="1.5" fill="#39d353"/>
+    <text x="30" y="72" class="mono-num-idx" fill="#39d353">01</text>
+    <text x="50" y="72" class="mono-card-title" fill="#e6edf3">FOUNDATION PROTOCOL</text>
+    <text x="30" y="91" class="sans-desc" fill="#8b949e">Event contracts, telemetry &amp; runtime</text>
+    <rect x="30.0" y="110.0" width="69.0" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="64.5" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">0xS3NT1N3L</text><rect x="104.0" y="110.0" width="51.9" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="129.9" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">0xF0RG3</text><rect x="160.9" y="110.0" width="69.0" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="195.4" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">PR00FCHAIN</text><rect x="30.0" y="130.0" width="51.9" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="56.0" y="141.2" text-anchor="middle" class="mono-pill" fill="#8b949e">N0CTURN</text>
+  </g>
+  <g>
+    <rect x="303" y="48" width="274" height="108" rx="9" fill="#121820" stroke="#21262d" stroke-width="1"/>
+    <rect x="303" y="62" width="3" height="24" rx="1.5" fill="#39d353"/>
+    <text x="317" y="72" class="mono-num-idx" fill="#39d353">02</text>
+    <text x="337" y="72" class="mono-card-title" fill="#e6edf3">SOC SIGNAL NETWORK</text>
+    <text x="317" y="91" class="sans-desc" fill="#8b949e">Signal to case to operator decision</text>
+    <rect x="317.0" y="110.0" width="74.7" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="354.4" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">S1GNAL-MESH</text><rect x="396.7" y="110.0" width="69.0" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="431.2" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">PR1SM-CASE</text><rect x="470.7" y="110.0" width="69.0" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="505.2" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">1NT3LGR4PH</text><rect x="317.0" y="130.0" width="86.1" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="360.1" y="141.2" text-anchor="middle" class="mono-pill" fill="#8b949e">N3XUS-C0NS0L3</text>
+  </g>
+  <g>
+    <rect x="590" y="48" width="274" height="108" rx="9" fill="#121820" stroke="#21262d" stroke-width="1"/>
+    <rect x="590" y="62" width="3" height="24" rx="1.5" fill="#39d353"/>
+    <text x="604" y="72" class="mono-num-idx" fill="#39d353">03</text>
+    <text x="624" y="72" class="mono-card-title" fill="#e6edf3">VERIFIABLE INTELLIGENCE</text>
+    <text x="604" y="91" class="sans-desc" fill="#8b949e">Provable AI search &amp; policy engine</text>
+    <rect x="604.0" y="110.0" width="51.9" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="630.0" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">V3R1TAS</text><rect x="660.9" y="110.0" width="51.9" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="686.9" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">N0M1N4L</text><rect x="717.8" y="110.0" width="63.3" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="749.4" y="121.2" text-anchor="middle" class="mono-pill" fill="#8b949e">BL4CK-1C3</text>
+  </g>
+  <g>
+    <rect x="16" y="170" width="274" height="108" rx="9" fill="#121820" stroke="#21262d" stroke-width="1"/>
+    <rect x="16" y="184" width="3" height="24" rx="1.5" fill="#39d353"/>
+    <text x="30" y="194" class="mono-num-idx" fill="#39d353">04</text>
+    <text x="50" y="194" class="mono-card-title" fill="#e6edf3">TRUST FABRIC</text>
+    <text x="30" y="213" class="sans-desc" fill="#8b949e">Cryptography, identity &amp; anchoring</text>
+    <rect x="30.0" y="232.0" width="80.4" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="70.2" y="243.2" text-anchor="middle" class="mono-pill" fill="#8b949e">C1PH3R-VAULT</text><rect x="115.4" y="232.0" width="74.7" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="152.8" y="243.2" text-anchor="middle" class="mono-pill" fill="#8b949e">M3RKLE-LENS</text><rect x="195.1" y="232.0" width="63.3" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="226.8" y="243.2" text-anchor="middle" class="mono-pill" fill="#8b949e">D1D-ATLAS</text>
+  </g>
+  <g>
+    <rect x="303" y="170" width="274" height="108" rx="9" fill="#121820" stroke="#21262d" stroke-width="1"/>
+    <rect x="303" y="184" width="3" height="24" rx="1.5" fill="#39d353"/>
+    <text x="317" y="194" class="mono-num-idx" fill="#39d353">05</text>
+    <text x="337" y="194" class="mono-card-title" fill="#e6edf3">ONCHAIN THREAT SURFACE</text>
+    <text x="317" y="213" class="sans-desc" fill="#8b949e">Adversarial protocol &amp; ledger ops</text>
+    <rect x="317.0" y="232.0" width="80.4" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="357.2" y="243.2" text-anchor="middle" class="mono-pill" fill="#8b949e">CHAIN//FAULT</text><rect x="402.4" y="232.0" width="57.6" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="431.2" y="243.2" text-anchor="middle" class="mono-pill" fill="#8b949e">0xLEDGER</text>
+  </g>
+  <g>
+    <rect x="590" y="170" width="274" height="108" rx="9" fill="#121820" stroke="#21262d" stroke-width="1"/>
+    <rect x="590" y="184" width="3" height="24" rx="1.5" fill="#39d353"/>
+    <text x="604" y="194" class="mono-num-idx" fill="#39d353">06</text>
+    <text x="624" y="194" class="mono-card-title" fill="#e6edf3">OPERATIONS REFERENCE</text>
+    <text x="604" y="213" class="sans-desc" fill="#8b949e">End-to-end reference deployment</text>
+    <rect x="604.0" y="232.0" width="69.0" height="16" rx="4" fill="#0d1117" stroke="#26303c" stroke-width="0.8"/><text x="638.5" y="243.2" text-anchor="middle" class="mono-pill" fill="#8b949e">0xC0R3-OPS</text>
+  </g>
+</svg>
