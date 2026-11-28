@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 290" width="100%" role="img" aria-label="0xR3TRO Ecosystem Lifecycle and Programs">
+  <style>
+    .mono-hdr { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.8px; }
+    .mono-stage { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 9px; }
+    .mono-stage-act { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 9px; font-weight: 700; }
+    .mono-num { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; font-weight: 700; }
+    .mono-title { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.4px; }
+    .sans-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; }
+    .mono-mods { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 9px; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="289" rx="10" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+
+  <text x="24" y="25" class="mono-hdr" fill="#8b949e">MODULE LIFECYCLE · <tspan fill="#e6edf3">LINKED ONLY AT PUBLIC-RELEASE</tspan></text>
+  <text x="856" y="25" text-anchor="end" class="mono-hdr" fill="#3fb950">17 / 17 CREATED-PRIVATE</text>
+
+  <!-- Lifecycle Pipeline -->
+  <rect x="48.0" y="38" width="64.0" height="24" rx="12" fill="#12171e" stroke="#21262d" stroke-width="1"/><text x="80.0" y="53.5" text-anchor="middle" class="mono-stage" fill="#6e7681">Planned</text><line x1="115.0" y1="50" x2="125.0" y2="50" stroke="#30363d" stroke-width="1"/><rect x="128.0" y="38" width="112.0" height="24" rx="12" fill="#0f2419" stroke="#3fb950" stroke-width="1.1"/><circle cx="138.0" cy="50" r="3" fill="#3fb950"/><text x="188.0" y="53.5" text-anchor="middle" class="mono-stage-act" fill="#3fb950">Created-private</text><line x1="243.0" y1="50" x2="253.0" y2="50" stroke="#30363d" stroke-width="1"/><rect x="256.0" y="38" width="94.0" height="24" rx="12" fill="#12171e" stroke="#21262d" stroke-width="1"/><text x="303.0" y="53.5" text-anchor="middle" class="mono-stage" fill="#6e7681">Bootstrapped</text><line x1="353.0" y1="50" x2="363.0" y2="50" stroke="#30363d" stroke-width="1"/><rect x="366.0" y="38" width="106.0" height="24" rx="12" fill="#12171e" stroke="#21262d" stroke-width="1"/><text x="419.0" y="53.5" text-anchor="middle" class="mono-stage" fill="#6e7681">Vertical-slice</text><line x1="475.0" y1="50" x2="485.0" y2="50" stroke="#30363d" stroke-width="1"/><rect x="488.0" y="38" width="124.0" height="24" rx="12" fill="#12171e" stroke="#21262d" stroke-width="1"/><text x="550.0" y="53.5" text-anchor="middle" class="mono-stage" fill="#6e7681">Internal-verified</text><line x1="615.0" y1="50" x2="625.0" y2="50" stroke="#30363d" stroke-width="1"/><rect x="628.0" y="38" width="106.0" height="24" rx="12" fill="#12171e" stroke="#21262d" stroke-width="1"/><text x="681.0" y="53.5" text-anchor="middle" class="mono-stage" fill="#6e7681">Public-release</text><line x1="737.0" y1="50" x2="747.0" y2="50" stroke="#30363d" stroke-width="1"/><rect x="750.0" y="38" width="82.0" height="24" rx="12" fill="#12171e" stroke="#21262d" stroke-width="1"/><text x="791.0" y="53.5" text-anchor="middle" class="mono-stage" fill="#6e7681">Maintained</text>
+
+  <line x1="24" y1="78" x2="856" y2="78" stroke="#21262d" stroke-width="1"/>
+  <!-- Vertical Divider between 2 columns -->
+  <line x1="438" y1="92" x2="438" y2="274" stroke="#1b222c" stroke-width="1"/>
+
+  <!-- 6 Programs Index -->
+  
+  <g>
+    <text x="24" y="108" class="mono-num" fill="#3fb950">01</text>
+    <text x="48" y="108" class="mono-title" fill="#e6edf3">FOUNDATION PROTOCOL</text>
+    <text x="48" y="125" class="sans-desc" fill="#8b949e">Contracts, telemetry, automation runtime &amp; assurance</text>
+    <text x="48" y="141" class="mono-mods" fill="#6e7681">0xS3NT1N3L · 0xF0RG3 · PR00FCHAIN · N0CTURN</text>
+  </g><line x1="24" y1="150" x2="428" y2="150" stroke="#1b222c" stroke-width="1"/>
+  <g>
+    <text x="448" y="108" class="mono-num" fill="#3fb950">02</text>
+    <text x="472" y="108" class="mono-title" fill="#e6edf3">SOC SIGNAL NETWORK</text>
+    <text x="472" y="125" class="sans-desc" fill="#8b949e">End-to-end signal correlation to case &amp; decision</text>
+    <text x="472" y="141" class="mono-mods" fill="#6e7681">S1GNAL-MESH · PR1SM-CASE · 1NT3LGR4PH · N3XUS-C0NS0L3</text>
+  </g><line x1="448" y1="150" x2="852" y2="150" stroke="#1b222c" stroke-width="1"/>
+  <g>
+    <text x="24" y="170" class="mono-num" fill="#3fb950">03</text>
+    <text x="48" y="170" class="mono-title" fill="#e6edf3">VERIFIABLE INTELLIGENCE</text>
+    <text x="48" y="187" class="sans-desc" fill="#8b949e">Citation-bound AI search, policy &amp; red-team regression</text>
+    <text x="48" y="203" class="mono-mods" fill="#6e7681">V3R1TAS · N0M1N4L · BL4CK-1C3</text>
+  </g><line x1="24" y1="212" x2="428" y2="212" stroke="#1b222c" stroke-width="1"/>
+  <g>
+    <text x="448" y="170" class="mono-num" fill="#3fb950">04</text>
+    <text x="472" y="170" class="mono-title" fill="#e6edf3">TRUST FABRIC</text>
+    <text x="472" y="187" class="sans-desc" fill="#8b949e">Cryptography, sealed evidence, anchoring &amp; DID</text>
+    <text x="472" y="203" class="mono-mods" fill="#6e7681">C1PH3R-VAULT · M3RKLE-LENS · D1D-ATLAS</text>
+  </g><line x1="448" y1="212" x2="852" y2="212" stroke="#1b222c" stroke-width="1"/>
+  <g>
+    <text x="24" y="232" class="mono-num" fill="#3fb950">05</text>
+    <text x="48" y="232" class="mono-title" fill="#e6edf3">ONCHAIN THREAT SURFACE</text>
+    <text x="48" y="249" class="sans-desc" fill="#8b949e">Protocol security workbench &amp; ledger intelligence</text>
+    <text x="48" y="265" class="mono-mods" fill="#6e7681">CHAIN//FAULT · 0xLEDGER</text>
+  </g>
+  <g>
+    <text x="448" y="232" class="mono-num" fill="#3fb950">06</text>
+    <text x="472" y="232" class="mono-title" fill="#e6edf3">OPERATIONS REFERENCE</text>
+    <text x="472" y="249" class="sans-desc" fill="#8b949e">Reference deployment validating the full ecosystem</text>
+    <text x="472" y="265" class="mono-mods" fill="#6e7681">0xC0R3-OPS</text>
+  </g>
+</svg>

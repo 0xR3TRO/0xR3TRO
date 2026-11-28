@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 294" width="100%" role="img" aria-label="0xR3TRO Terminal Profile and Metrics">
+  <style>
+    .mono-win { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; }
+    .mono-code { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; }
+    .mono-kpi { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 24px; font-weight: 700; }
+    .mono-lbl { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 9px; font-weight: 600; letter-spacing: 0.7px; }
+    .mono-xs { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 10px; }
+    .mono-xxs { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 8.8px; }
+    .line-in { animation: fadeSlide 0.6s ease-out both; }
+    .cursor { animation: blink 1.1s step-end infinite; }
+    .wbar { transform-box: fill-box; transform-origin: bottom; animation: barUp 0.8s ease-out both; }
+    @keyframes fadeSlide { from { opacity: 0; transform: translateY(3px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+    @keyframes barUp { from { transform: scaleY(0.12); opacity: 0.3; } to { transform: scaleY(1); opacity: 1; } }
+  </style>
+
+  <!-- Outer Frame -->
+  <rect x="0.5" y="0.5" width="879" height="293" rx="10" fill="#0d1117" stroke="#21262d" stroke-width="1"/>
+
+  <!-- LEFT PANEL: Minimalist Unix Terminal (Replaces Profile Photo) -->
+  <rect x="16" y="16" width="432" height="262" rx="9" fill="#090d12" stroke="#21262d" stroke-width="1"/>
+  <!-- Window Header Bar -->
+  <path d="M16 25 A9 9 0 0 1 25 16 H439 A9 9 0 0 1 448 25 V42 H16 Z" fill="#161b22"/>
+  <line x1="16" y1="42" x2="448" y2="42" stroke="#21262d" stroke-width="1"/>
+  <circle cx="32" cy="29" r="4" fill="#30363d"/>
+  <circle cx="46" cy="29" r="4" fill="#30363d"/>
+  <circle cx="60" cy="29" r="4" fill="#30363d"/>
+  <text x="232" y="32.5" text-anchor="middle" class="mono-win" fill="#8b949e">0xR3TRO@ops — profile.toml</text>
+
+  <!-- Terminal Output -->
+  <g class="mono-code">
+    <text x="32" y="66" class="line-in" style="animation-delay:0.05s"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> cat profile.toml</tspan></text>
+
+    <text x="32" y="92" class="line-in" style="animation-delay:0.15s"><tspan fill="#8b949e">handle    = </tspan><tspan fill="#e6edf3">"0xR3TRO"</tspan></text>
+    <text x="32" y="114" class="line-in" style="animation-delay:0.25s"><tspan fill="#8b949e">stance    = </tspan><tspan fill="#3fb950">"Anonymity is not a mask, it's a shield."</tspan></text>
+    <text x="32" y="136" class="line-in" style="animation-delay:0.35s"><tspan fill="#8b949e">domains   = </tspan><tspan fill="#e6edf3">["Security", "Web3", "AI", "Platform"]</tspan></text>
+    <text x="32" y="158" class="line-in" style="animation-delay:0.45s"><tspan fill="#8b949e">ecosystem = </tspan><tspan fill="#e6edf3">"6 programs / 17 private modules"</tspan></text>
+    <text x="32" y="180" class="line-in" style="animation-delay:0.55s"><tspan fill="#8b949e">principle = </tspan><tspan fill="#c9d1d9">"measurable effect · bounded risk"</tspan></text>
+
+    <line x1="32" y1="198" x2="432" y2="198" stroke="#1b222c" stroke-width="1"/>
+
+    <text x="32" y="222" class="line-in" style="animation-delay:0.65s"><tspan fill="#3fb950">$</tspan><tspan fill="#e6edf3"> verify --integrity</tspan></text>
+    <text x="32" y="246" class="line-in" style="animation-delay:0.75s"><tspan fill="#3fb950">✓</tspan><tspan fill="#8b949e"> provenance valid · </tspan><tspan fill="#e6edf3">17/17 modules tracked</tspan></text>
+    <rect x="316" y="236" width="7" height="12" rx="1" fill="#3fb950" class="cursor"/>
+  </g>
+
+  <!-- RIGHT PANEL: Minimalist KPI Row -->
+  <rect x="464" y="16" width="126" height="72" rx="9" fill="#12171e" stroke="#21262d" stroke-width="1"/>
+  <text x="478" y="50" class="mono-kpi" fill="#3fb950">624</text>
+  <text x="478" y="72" class="mono-lbl" fill="#8b949e">12M ACTIVITY</text>
+
+  <rect x="601" y="16" width="126" height="72" rx="9" fill="#12171e" stroke="#21262d" stroke-width="1"/>
+  <text x="615" y="50" class="mono-kpi" fill="#e6edf3">174</text>
+  <text x="615" y="72" class="mono-lbl" fill="#8b949e">COMMITS</text>
+
+  <rect x="738" y="16" width="126" height="72" rx="9" fill="#12171e" stroke="#21262d" stroke-width="1"/>
+  <text x="752" y="50" class="mono-kpi" fill="#e6edf3">35</text>
+  <text x="752" y="72" class="mono-lbl" fill="#8b949e">REPOS (10/25)</text>
+
+  <!-- Inline Secondary Strip -->
+  <rect x="464" y="98" width="400" height="32" rx="8" fill="#12171e" stroke="#21262d" stroke-width="1"/>
+  <text x="664" y="117.5" text-anchor="middle" class="mono-xs" fill="#8b949e">
+    <tspan fill="#e6edf3">71</tspan> PRs  ·  <tspan fill="#e6edf3">350</tspan> Issues  ·  <tspan fill="#e6edf3">36</tspan> Active Days  ·  <tspan fill="#3fb950">5d Streak</tspan>
+  </text>
+
+  <!-- Weekly Rhythm Bar Chart -->
+  <rect x="464" y="140" width="400" height="138" rx="9" fill="#12171e" stroke="#21262d" stroke-width="1"/>
+  <text x="480" y="160" class="mono-lbl" fill="#c9d1d9">WEEKLY RHYTHM</text>
+  <text x="848" y="160" text-anchor="end" class="mono-xxs" fill="#6e7681">MON – SUN · LOG SCALE</text>
+  <line x1="480" y1="250" x2="848" y2="250" stroke="#21262d" stroke-width="1"/>
+  <rect x="480.0" y="217.0" width="26.0" height="33.0" rx="4" fill="#30363d" class="wbar" style="animation-delay:0.00s"/><text x="493.0" y="211.0" text-anchor="middle" class="mono-xxs" fill="#8b949e">19</text><text x="493.0" y="265" text-anchor="middle" class="mono-xxs" fill="#6e7681">MON</text><rect x="532.0" y="221.8" width="26.0" height="28.2" rx="4" fill="#30363d" class="wbar" style="animation-delay:0.08s"/><text x="545.0" y="215.8" text-anchor="middle" class="mono-xxs" fill="#8b949e">12</text><text x="545.0" y="265" text-anchor="middle" class="mono-xxs" fill="#6e7681">TUE</text><rect x="584.0" y="213.3" width="26.0" height="36.7" rx="4" fill="#30363d" class="wbar" style="animation-delay:0.16s"/><text x="597.0" y="207.3" text-anchor="middle" class="mono-xxs" fill="#8b949e">27</text><text x="597.0" y="265" text-anchor="middle" class="mono-xxs" fill="#6e7681">WED</text><rect x="636.0" y="182.0" width="26.0" height="68.0" rx="4" fill="#3fb950" class="wbar" style="animation-delay:0.24s"/><text x="649.0" y="176.0" text-anchor="middle" class="mono-xxs" fill="#3fb950">482</text><text x="649.0" y="265" text-anchor="middle" class="mono-xxs" fill="#6e7681">THU</text><rect x="688.0" y="209.4" width="26.0" height="40.6" rx="4" fill="#30363d" class="wbar" style="animation-delay:0.32s"/><text x="701.0" y="203.4" text-anchor="middle" class="mono-xxs" fill="#8b949e">39</text><text x="701.0" y="265" text-anchor="middle" class="mono-xxs" fill="#6e7681">FRI</text><rect x="740.0" y="218.2" width="26.0" height="31.8" rx="4" fill="#30363d" class="wbar" style="animation-delay:0.40s"/><text x="753.0" y="212.2" text-anchor="middle" class="mono-xxs" fill="#8b949e">17</text><text x="753.0" y="265" text-anchor="middle" class="mono-xxs" fill="#6e7681">SAT</text><rect x="792.0" y="212.9" width="26.0" height="37.1" rx="4" fill="#30363d" class="wbar" style="animation-delay:0.48s"/><text x="805.0" y="206.9" text-anchor="middle" class="mono-xxs" fill="#8b949e">28</text><text x="805.0" y="265" text-anchor="middle" class="mono-xxs" fill="#6e7681">SUN</text>
+</svg>
