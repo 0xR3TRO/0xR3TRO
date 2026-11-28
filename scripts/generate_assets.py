@@ -289,63 +289,98 @@ def render_activity(m: dict, p: dict) -> str:
 def render_overview(m: dict, p: dict) -> str:
     w_svg, h_svg = 880, 356
 
-    # LEFT PANEL (x=16..444, y=16..340): 3-Tier Defense-in-Depth Circuit Bus Topology
-    # Tier 1 (Top): P04 TRUST FABRIC (x=36..212, y=62..106) & P05 ONCHAIN (x=248..424, y=62..106)
-    # Tier 2 (Mid Bus): P02 SOC SIGNAL (x=30..158, y=156..204) -- [0xR3TRO CORE] (x=176..284, y=150..210) -- P03 VERIF AI (x=302..430, y=156..204)
-    # Tier 3 (Bottom): P01 FOUNDATION (x=36..212, y=252..296) & P06 0xC0R3-OPS (x=248..424, y=252..296)
-    circuit_paths = [
-        # Top-left TRUST FABRIC -> Core top-left port
-        ("M 124 106 V 130 H 206 V 150", 0.0),
-        # Top-right ONCHAIN -> Core top-right port
-        ("M 336 106 V 130 H 254 V 150", 0.5),
-        # Cross-bridge Top-left <-> Top-right
-        ("M 212 84 H 248", 1.0),
-        # Mid-left SOC SIGNAL <-> Core left
-        ("M 158 180 H 176", 0.3),
-        # Mid-right VERIF AI <-> Core right
-        ("M 302 180 H 284", 0.8),
-        # Core bottom-left -> FOUNDATION
-        ("M 206 210 V 230 H 124 V 252", 1.2),
-        # Core bottom-right -> 0xC0R3-OPS
-        ("M 254 210 V 230 H 336 V 252", 1.6),
-        # Cross-bridge Bottom-left <-> Bottom-right
-        ("M 212 274 H 248", 2.0),
-        # Side vertical bypasses TRUST -> SOC -> FOUNDATION and ONCHAIN -> AI -> OPS
-        ("M 86 106 V 156", 1.4),
-        ("M 86 204 V 252", 1.8),
-        ("M 374 106 V 156", 0.6),
-        ("M 374 204 V 252", 2.2),
+    # LEFT PANEL (x=16..444, y=16..340): Symmetrical 3-Tier 45°-Chamfered PCB Security Topology
+    # 6 identical 130x48 blocks in 3 balanced tiers (L1, L2, L3) flanking a central octagonal 0xR3TRO Core Chip.
+    # Rows: L1 y=63..111 (cy=87), L2 y=155..203 (cy=179), L3 y=247..295 (cy=271)
+    # Cols: Left x=38..168 (cx=103), Core x=188..272 (cx=230, y=147..211), Right x=292..422 (cx=357)
+    primary_buses = [
+        # L1 Left -> Core top-left pin (45° chamfer, length ~102)
+        ("M 168 87 H 206 L 216 97 V 147", 0.0),
+        # L1 Right -> Core top-right pin (45° chamfer, length ~102)
+        ("M 292 87 H 254 L 244 97 V 147", 0.9),
+        # Core bottom-left pin -> L3 Left (45° chamfer, length ~102)
+        ("M 216 211 V 261 L 206 271 H 168", 1.8),
+        # Core bottom-right pin -> L3 Right (45° chamfer, length ~102)
+        ("M 244 211 V 261 L 254 271 H 292", 2.7),
     ]
     traces_svg = []
-    for d, delay in circuit_paths:
+    for d, delay in primary_buses:
         traces_svg.append(
-            f'<path d="{d}" fill="none" stroke="{p["border"]}" stroke-width="1.3"/>'
-            f'<path d="{d}" fill="none" stroke="{p["ink"]}" stroke-width="1.5" '
-            f'stroke-dasharray="8 110" class="pulse" style="animation-delay:{delay:.2f}s"/>'
+            f'<path d="{d}" fill="none" stroke="{p["border"]}" stroke-width="1.5" stroke-linejoin="miter"/>'
+            f'<path d="{d}" fill="none" stroke="{p["ink"]}" stroke-width="1.6" '
+            f'stroke-dasharray="10 112" stroke-linecap="square" class="pulse" style="animation-delay:{delay:.2f}s"/>'
         )
 
-    # Junction nodes along bus
-    junctions = [(124, 130), (336, 130), (206, 130), (254, 130), (206, 230), (254, 230), (124, 230), (336, 230)]
-    junc_svg = "".join(f'<rect x="{jx - 2.5}" y="{jy - 2.5}" width="5" height="5" fill="{p["ink"]}"/>' for jx, jy in junctions)
+    # Clean twin-rail horizontal conduits linking L2 Left & L2 Right to Central Core
+    for y_rail in (176, 182):
+        traces_svg.append(
+            f'<line x1="168" y1="{y_rail}" x2="188" y2="{y_rail}" stroke="{p["ink"]}" stroke-opacity="0.55" stroke-width="1.2"/>'
+            f'<line x1="272" y1="{y_rail}" x2="292" y2="{y_rail}" stroke="{p["ink"]}" stroke-opacity="0.55" stroke-width="1.2"/>'
+        )
 
+    # Vertical inter-tier cascading rails (L1 -> L2 -> L3) with tiny directional chevrons
+    for vx in (103, 357):
+        for y1, y2 in ((111, 155), (203, 247)):
+            ym = (y1 + y2) / 2
+            traces_svg.append(
+                f'<line x1="{vx}" y1="{y1}" x2="{vx}" y2="{y2}" stroke="{p["border"]}" stroke-dasharray="3 3" stroke-width="1.1"/>'
+                f'<polygon points="{vx - 3},{ym - 2} {vx + 3},{ym - 2} {vx},{ym + 3}" fill="{p["ink_muted"]}"/>'
+            )
+
+    # Subtle tier divider lines & L1/L2/L3 margin labels
+    tier_guides = [
+        (87, "L1"),
+        (179, "L2"),
+        (271, "L3"),
+    ]
+    guides_svg = "".join(
+        f'<text x="23" y="{ty + 3}" class="tier-lbl" fill="{p["ink_faint"]}">{tl}</text>'
+        f'<line x1="34" y1="{ty}" x2="38" y2="{ty}" stroke="{p["border"]}" stroke-width="1"/>'
+        f'<line x1="422" y1="{ty}" x2="430" y2="{ty}" stroke="{p["border"]}" stroke-width="1"/>'
+        for ty, tl in tier_guides
+    )
+
+    # Hollow PCB terminal solder-pads at every bus port
+    pads = [
+        (168, 87), (292, 87),
+        (168, 179), (292, 179),
+        (188, 179), (272, 179),
+        (168, 271), (292, 271),
+        (216, 147), (244, 147),
+        (216, 211), (244, 211),
+        (103, 111), (103, 155), (103, 203), (103, 247),
+        (357, 111), (357, 155), (357, 203), (357, 247),
+    ]
+    pads_svg = "".join(
+        f'<circle cx="{px}" cy="{py}" r="2.5" fill="{p["bg"]}" stroke="{p["ink"]}" stroke-width="1.1"/>'
+        for px, py in pads
+    )
+
+    # 6 Identical Symmetrical Module Cards (130x48)
     tier_cards = [
-        (36, 62, 176, 44, "P04", "TRUST FABRIC", "Vault · Merkle · DID [3m]"),
-        (248, 62, 176, 44, "P05", "ONCHAIN SURFACE", "Fault · Ledger [2m]"),
-        (30, 158, 128, 44, "P02", "SOC SIGNAL", "Mesh · Case [4m]"),
-        (302, 158, 128, 44, "P03", "VERIF. AI", "Search · Lab [3m]"),
-        (36, 252, 176, 44, "P01", "FOUNDATION", "Events · Runtime [4m]"),
-        (248, 252, 176, 44, "P06", "0xC0R3-OPS", "Reference Deploy [1m]"),
+        (38, 63, "P04", "TRUST FABRIC", "Vault · Merkle · DID", "3m"),
+        (292, 63, "P05", "ONCHAIN", "Fault · Ledger Ops", "2m"),
+        (38, 155, "P02", "SOC SIGNAL", "Mesh · Case · Graph", "4m"),
+        (292, 155, "P03", "VERIF. AI", "Veritas · Nominal", "3m"),
+        (38, 247, "P01", "FOUNDATION", "Events · Runtime", "4m"),
+        (292, 247, "P06", "0xC0R3-OPS", "Reference Deploy", "1m"),
     ]
     cards_svg = []
-    for cx, cy, cw, ch, port, name, sub in tier_cards:
+    for cx, cy, port, name, sub, cnt in tier_cards:
         cards_svg.append(f'''
   <g>
-    <rect x="{cx}" y="{cy}" width="{cw}" height="{ch}" rx="3" fill="{p["bg"]}" stroke="{p["border"]}" stroke-width="1"/>
-    <rect x="{cx}" y="{cy}" width="{cw}" height="2.5" fill="{p["ink"]}" opacity="0.7"/>
-    <text x="{cx + 8}" y="{cy + 18}" class="port" fill="{p["ink_muted"]}">{port}</text>
-    <text x="{cx + 30}" y="{cy + 18}" class="node" fill="{p["ink"]}">{name}</text>
-    <text x="{cx + 8}" y="{cy + 34}" class="micro" fill="{p["ink_muted"]}">{sub}</text>
+    <rect x="{cx}" y="{cy}" width="130" height="48" rx="3" fill="{p["bg"]}" stroke="{p["border"]}" stroke-width="1"/>
+    <rect x="{cx}" y="{cy}" width="3" height="48" rx="1" fill="{p["ink"]}"/>
+    <text x="{cx + 9}" y="{cy + 17.5}" class="port" fill="{p["ink_muted"]}">{port}</text>
+    <text x="{cx + 31}" y="{cy + 17.5}" class="node" fill="{p["ink"]}">{name}</text>
+    <text x="{cx + 123}" y="{cy + 17.5}" text-anchor="end" class="tick" fill="{p["ink_faint"]}">{cnt}</text>
+    <line x1="{cx + 9}" y1="{cy + 24}" x2="{cx + 122}" y2="{cy + 24}" stroke="{p["hairline"]}" stroke-width="0.8"/>
+    <text x="{cx + 9}" y="{cy + 37.5}" class="micro" fill="{p["ink_muted"]}">{sub}</text>
   </g>''')
+
+    # Chamfered Octagonal Central Core Processor (x=188..272, y=147..211, chamfer=9)
+    core_outer = "197,147 263,147 272,156 272,202 263,211 197,211 188,202 188,156"
+    core_inner = "200,152 260,152 267,159 267,199 260,206 200,206 193,199 193,159"
 
     # RIGHT TOP: Axis-Calibrated Monochrome Telemetry Chart
     metrics_rows = [
@@ -406,38 +441,44 @@ def render_overview(m: dict, p: dict) -> str:
   <style>
     text {{ font-family: {MONO}; }}
     .hdr {{ font-size: 10px; font-weight: 700; letter-spacing: 0.9px; }}
-    .port {{ font-size: 8px; font-weight: 700; }}
-    .node {{ font-size: 9px; font-weight: 700; letter-spacing: 0.3px; }}
+    .tier-lbl {{ font-size: 8px; font-weight: 700; letter-spacing: 0.4px; }}
+    .port {{ font-size: 7.8px; font-weight: 700; }}
+    .node {{ font-size: 8.6px; font-weight: 700; letter-spacing: 0.2px; }}
     .core {{ font-size: 11px; font-weight: 700; letter-spacing: 0.8px; }}
     .xs {{ font-size: 9.5px; }}
     .val {{ font-size: 10px; font-weight: 700; }}
-    .micro {{ font-size: 8px; letter-spacing: 0.3px; }}
+    .micro {{ font-size: 7.8px; letter-spacing: 0.2px; }}
     .tick {{ font-size: 7.5px; }}
-    .pulse {{ animation: busPulse 3.4s linear infinite; }}
-    @keyframes busPulse {{ 0% {{ stroke-dashoffset: 118; }} 100% {{ stroke-dashoffset: 0; }} }}
+    .pulse {{ animation: busPulse 3.6s linear infinite; }}
+    @keyframes busPulse {{ 0% {{ stroke-dashoffset: 122; }} 100% {{ stroke-dashoffset: 0; }} }}
   </style>
 
   <rect x="0.5" y="0.5" width="{w_svg - 1}" height="{h_svg - 1}" rx="4" fill="{p["bg"]}" stroke="{p["border"]}" stroke-width="1"/>
 
-  <!-- LEFT: 3-Tier Defense-in-Depth Circuit Bus -->
+  <!-- LEFT: Symmetrical 3-Tier 45° PCB Security Topology -->
   <rect x="16" y="16" width="428" height="324" rx="4" fill="{p["surface"]}" stroke="{p["border"]}" stroke-width="1"/>
   <rect x="17" y="44" width="426" height="270" fill="url(#dotGrid)"/>
   <text x="28" y="34" class="hdr" fill="{p["ink"]}">DEFENSE-IN-DEPTH CIRCUIT TOPOLOGY</text>
-  <text x="432" y="34" text-anchor="end" class="micro" fill="{p["ink_muted"]}">3-TIER BUS · 6 PORTS</text>
+  <text x="432" y="34" text-anchor="end" class="micro" fill="{p["ink_muted"]}">L1..L3 · 6 PORTS</text>
   <line x1="16" y1="44" x2="444" y2="44" stroke="{p["border"]}" stroke-width="1"/>
 
-  <!-- Orthogonal PCB Traces & Junctions -->
+  <!-- Tier Guides -->
+  <g>{guides_svg}</g>
+
+  <!-- 45° Chamfered PCB Bus Traces -->
   <g>{"".join(traces_svg)}</g>
-  <g>{junc_svg}</g>
 
-  <!-- Central Core Bus Block -->
-  <rect x="176" y="150" width="108" height="60" rx="3" fill="{p["inv_bg"]}" stroke="{p["ink"]}" stroke-width="1.5"/>
-  <rect x="181" y="155" width="98" height="50" rx="1.5" fill="none" stroke="{p["inv_ink"]}" stroke-opacity="0.35" stroke-width="0.8"/>
-  <text x="230" y="177" text-anchor="middle" class="core" fill="{p["inv_ink"]}">0xR3TRO</text>
-  <text x="230" y="191" text-anchor="middle" class="micro" fill="{p["inv_ink"]}" opacity="0.75">VERIFIABLE CORE</text>
-
-  <!-- 6 Tier Cards -->
+  <!-- 6 Symmetrical Module Blocks -->
   <g>{"".join(cards_svg)}</g>
+
+  <!-- Central Octagonal Core Processor -->
+  <polygon points="{core_outer}" fill="{p["inv_bg"]}" stroke="{p["ink"]}" stroke-width="1.4"/>
+  <polygon points="{core_inner}" fill="none" stroke="{p["inv_ink"]}" stroke-opacity="0.35" stroke-width="0.8"/>
+  <text x="230" y="176" text-anchor="middle" class="core" fill="{p["inv_ink"]}">0xR3TRO</text>
+  <text x="230" y="190" text-anchor="middle" class="tick" fill="{p["inv_ink"]}" opacity="0.78">CORE BUS</text>
+
+  <!-- PCB Terminal Solder-Pads -->
+  <g>{pads_svg}</g>
 
   <line x1="16" y1="314" x2="444" y2="314" stroke="{p["border"]}" stroke-width="1"/>
   <text x="28" y="331" class="micro" fill="{p["ink_muted"]}">ANONYMITY IS NOT A MASK — IT'S A SHIELD</text>
@@ -500,9 +541,9 @@ def render_route_map(p: dict) -> str:
             )
 
     flows = [
-        (16, "[IN] CRYPTO & ON-CHAIN", "Trust Fabric · Onchain Threat Surface"),
-        (308, "[PROC] SIGNAL & EVIDENCE", "SOC Signal Network · Verifiable AI"),
-        (600, "[OUT] BOUNDED ACTION", "Foundation Protocol · 0xC0R3-OPS"),
+        (16, "[L1 · IN] CRYPTO & ON-CHAIN", "Trust Fabric · Onchain Threat Surface"),
+        (308, "[L2 · PROC] SIGNAL & EVIDENCE", "SOC Signal Network · Verifiable AI"),
+        (600, "[L3 · OUT] BOUNDED ACTION", "Foundation Protocol · 0xC0R3-OPS"),
     ]
     flow_boxes = []
     for x, title, sub in flows:
