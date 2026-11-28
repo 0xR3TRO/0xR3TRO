@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 144" width="100%" role="img" aria-label="0xR3TRO Verification Pipeline">
+  <style>
+    .mono-num { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 10.5px; font-weight: 700; }
+    .mono-title { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 11px; font-weight: 700; letter-spacing: 0.4px; }
+    .sans-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-size: 11px; }
+    .mono-sub { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 8.5px; letter-spacing: 0.4px; }
+    .mono-foot { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; font-size: 9px; letter-spacing: 0.5px; }
+    .arrow-flow { animation: dash 1.8s linear infinite; }
+    @keyframes dash { to { stroke-dashoffset: -18; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="143" rx="12" fill="#0b0f14" stroke="#1e293b" stroke-width="1"/>
+  
+  <g>
+    <rect x="16" y="18" width="264" height="86" rx="10" fill="#0d131d" stroke="#1e293b" stroke-width="1"/>
+    <rect x="16" y="18" width="264" height="3" rx="1.5" fill="#38bdf8" fill-opacity="0.85"/>
+    <text x="32" y="42" class="mono-num" fill="#38bdf8">[01]</text>
+    <text x="64" y="42" class="mono-title" fill="#f1f5f9">CRYPTO &amp; ON-CHAIN</text>
+    <text x="32" y="64" class="sans-desc" fill="#94a3b8">Identity · Ledger · Provenance</text>
+    <text x="32" y="88" class="mono-sub" fill="#64748b">TRUST FABRIC · ONCHAIN SURFACE</text>
+  </g>
+  <g>
+    <rect x="308" y="18" width="264" height="86" rx="10" fill="#0d131d" stroke="#1e293b" stroke-width="1"/>
+    <rect x="308" y="18" width="264" height="3" rx="1.5" fill="#34d399" fill-opacity="0.85"/>
+    <text x="324" y="42" class="mono-num" fill="#34d399">[02]</text>
+    <text x="356" y="42" class="mono-title" fill="#f1f5f9">SIGNAL &amp; EVIDENCE</text>
+    <text x="324" y="64" class="sans-desc" fill="#94a3b8">Correlation · Citation-Bound AI</text>
+    <text x="324" y="88" class="mono-sub" fill="#64748b">SOC SIGNAL · VERIFIABLE AI</text>
+  </g>
+  <g>
+    <rect x="600" y="18" width="264" height="86" rx="10" fill="#0d131d" stroke="#1e293b" stroke-width="1"/>
+    <rect x="600" y="18" width="264" height="3" rx="1.5" fill="#818cf8" fill-opacity="0.85"/>
+    <text x="616" y="42" class="mono-num" fill="#818cf8">[03]</text>
+    <text x="648" y="42" class="mono-title" fill="#f1f5f9">CONTROLLED ACTION</text>
+    <text x="616" y="64" class="sans-desc" fill="#94a3b8">Policy Runtime · Reference Ops</text>
+    <text x="616" y="88" class="mono-sub" fill="#64748b">FOUNDATION · 0xC0R3-OPS</text>
+  </g>
+
+  <!-- Animated connectors -->
+  <line x1="282" y1="61" x2="306" y2="61" stroke="#38bdf8" stroke-width="2" stroke-dasharray="4 5" class="arrow-flow"/>
+  <polygon points="304,57 308,61 304,65" fill="#38bdf8"/>
+
+  <line x1="574" y1="61" x2="598" y2="61" stroke="#34d399" stroke-width="2" stroke-dasharray="4 5" class="arrow-flow"/>
+  <polygon points="596,57 600,61 596,65" fill="#34d399"/>
+
+  <!-- Bottom Axiom Strip -->
+  <text x="440" y="128" text-anchor="middle" class="mono-foot" fill="#64748b">
+    AI = LAYER, NOT GOAL  ·  WEB3 = ONLY WHERE IT EARNS TRUST  ·  EVERY MODULE = MEASURABLE &amp; BOUNDED RISK
+  </text>
+</svg>
