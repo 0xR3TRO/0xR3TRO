@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 276" width="100%" role="img" aria-label="0xR3TRO Ecosystem Program Matrix">
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    .hdr { font-size: 9.5px; font-weight: 700; letter-spacing: 0.8px; }
+    .idx { font-size: 9.5px; font-weight: 700; }
+    .title { font-size: 9.8px; font-weight: 700; letter-spacing: 0.3px; }
+    .desc { font-size: 9px; }
+    .mods { font-size: 8.5px; }
+    .micro { font-size: 7.8px; font-weight: 700; letter-spacing: 0.4px; }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="275" rx="4" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+  <rect x="1" y="1" width="878" height="46" rx="3" fill="#eceaea"/>
+  <line x1="1" y1="47" x2="879" y2="47" stroke="#d6d3d3" stroke-width="1"/>
+
+  <text x="24" y="20" class="hdr" fill="#171515">PROGRAM SPECIFICATION INDEX</text>
+  <text x="858" y="20" text-anchor="end" class="micro" fill="#6c6767">6 PROGRAMS · 17 MODULES</text>
+
+  <text x="24" y="38" class="micro" fill="#6c6767">ID</text>
+  <text x="64" y="38" class="micro" fill="#6c6767">PROGRAM</text>
+  <text x="256" y="38" class="micro" fill="#6c6767">SCOPE</text>
+  <text x="488" y="38" class="micro" fill="#6c6767">MODULES</text>
+  <text x="836" y="38" text-anchor="middle" class="micro" fill="#6c6767">STATE</text>
+
+  <rect x="1" y="50" width="878" height="32" fill="#f6f5f5"/><line x1="16" y1="82" x2="864" y2="82" stroke="#e6e3e3" stroke-width="0.9"/><text x="24" y="70" class="idx" fill="#6c6767">[01]</text><text x="64" y="70" class="title" fill="#171515">FOUNDATION PROTOCOL</text><text x="256" y="70" class="desc" fill="#3b3838">Contracts, telemetry &amp; assurance</text><text x="488" y="70" class="mods" fill="#6c6767">0xS3NT1N3L · 0xF0RG3 · PR00FCHAIN · N0CTURN</text><rect x="814" y="58" width="44" height="17" rx="2" fill="#eceaea" stroke="#d6d3d3" stroke-width="0.8"/><text x="836" y="69.5" text-anchor="middle" class="micro" fill="#3b3838">PRIV</text><rect x="1" y="83" width="878" height="32" fill="#fdfcfc"/><line x1="16" y1="115" x2="864" y2="115" stroke="#e6e3e3" stroke-width="0.9"/><text x="24" y="103" class="idx" fill="#6c6767">[02]</text><text x="64" y="103" class="title" fill="#171515">SOC SIGNAL NETWORK</text><text x="256" y="103" class="desc" fill="#3b3838">Signal to case to decision</text><text x="488" y="103" class="mods" fill="#6c6767">S1GNAL-MESH · PR1SM-CASE · 1NT3LGR4PH · N3XUS-C0NS0L3</text><rect x="814" y="91" width="44" height="17" rx="2" fill="#eceaea" stroke="#d6d3d3" stroke-width="0.8"/><text x="836" y="102.5" text-anchor="middle" class="micro" fill="#3b3838">PRIV</text><rect x="1" y="116" width="878" height="32" fill="#f6f5f5"/><line x1="16" y1="148" x2="864" y2="148" stroke="#e6e3e3" stroke-width="0.9"/><text x="24" y="136" class="idx" fill="#6c6767">[03]</text><text x="64" y="136" class="title" fill="#171515">VERIFIABLE INTELLIGENCE</text><text x="256" y="136" class="desc" fill="#3b3838">Citation-bound AI &amp; policy</text><text x="488" y="136" class="mods" fill="#6c6767">V3R1TAS · N0M1N4L · BL4CK-1C3</text><rect x="814" y="124" width="44" height="17" rx="2" fill="#eceaea" stroke="#d6d3d3" stroke-width="0.8"/><text x="836" y="135.5" text-anchor="middle" class="micro" fill="#3b3838">PRIV</text><rect x="1" y="149" width="878" height="32" fill="#fdfcfc"/><line x1="16" y1="181" x2="864" y2="181" stroke="#e6e3e3" stroke-width="0.9"/><text x="24" y="169" class="idx" fill="#6c6767">[04]</text><text x="64" y="169" class="title" fill="#171515">TRUST FABRIC</text><text x="256" y="169" class="desc" fill="#3b3838">Crypto, vault, anchoring &amp; DID</text><text x="488" y="169" class="mods" fill="#6c6767">C1PH3R-VAULT · M3RKLE-LENS · D1D-ATLAS</text><rect x="814" y="157" width="44" height="17" rx="2" fill="#eceaea" stroke="#d6d3d3" stroke-width="0.8"/><text x="836" y="168.5" text-anchor="middle" class="micro" fill="#3b3838">PRIV</text><rect x="1" y="182" width="878" height="32" fill="#f6f5f5"/><line x1="16" y1="214" x2="864" y2="214" stroke="#e6e3e3" stroke-width="0.9"/><text x="24" y="202" class="idx" fill="#6c6767">[05]</text><text x="64" y="202" class="title" fill="#171515">ONCHAIN THREAT SURFACE</text><text x="256" y="202" class="desc" fill="#3b3838">Protocol &amp; ledger security</text><text x="488" y="202" class="mods" fill="#6c6767">CHAIN//FAULT · 0xLEDGER</text><rect x="814" y="190" width="44" height="17" rx="2" fill="#eceaea" stroke="#d6d3d3" stroke-width="0.8"/><text x="836" y="201.5" text-anchor="middle" class="micro" fill="#3b3838">PRIV</text><rect x="1" y="215" width="878" height="32" fill="#fdfcfc"/><line x1="16" y1="247" x2="864" y2="247" stroke="#e6e3e3" stroke-width="0.9"/><text x="24" y="235" class="idx" fill="#6c6767">[06]</text><text x="64" y="235" class="title" fill="#171515">OPERATIONS REFERENCE</text><text x="256" y="235" class="desc" fill="#3b3838">Full-stack ops deployment</text><text x="488" y="235" class="mods" fill="#6c6767">0xC0R3-OPS</text><rect x="814" y="223" width="44" height="17" rx="2" fill="#eceaea" stroke="#d6d3d3" stroke-width="0.8"/><text x="836" y="234.5" text-anchor="middle" class="micro" fill="#3b3838">PRIV</text>
+</svg>

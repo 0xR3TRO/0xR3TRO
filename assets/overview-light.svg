@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 356" width="100%" role="img" aria-label="0xR3TRO Defense-in-Depth Circuit Topology and Charts">
+  <defs>
+    <pattern id="dotGrid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.8" fill="#dfdddd"/>
+    </pattern>
+    <pattern id="bpHatch" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+      <line x1="0" y1="0" x2="0" y2="5" stroke="#fdfcfc" stroke-width="1.5"/>
+    </pattern>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace; }
+    .hdr { font-size: 10px; font-weight: 700; letter-spacing: 0.9px; }
+    .port { font-size: 8px; font-weight: 700; }
+    .node { font-size: 9px; font-weight: 700; letter-spacing: 0.3px; }
+    .core { font-size: 11px; font-weight: 700; letter-spacing: 0.8px; }
+    .xs { font-size: 9.5px; }
+    .val { font-size: 10px; font-weight: 700; }
+    .micro { font-size: 8px; letter-spacing: 0.3px; }
+    .tick { font-size: 7.5px; }
+    .pulse { animation: busPulse 3.4s linear infinite; }
+    @keyframes busPulse { 0% { stroke-dashoffset: 118; } 100% { stroke-dashoffset: 0; } }
+  </style>
+
+  <rect x="0.5" y="0.5" width="879" height="355" rx="4" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+
+  <!-- LEFT: 3-Tier Defense-in-Depth Circuit Bus -->
+  <rect x="16" y="16" width="428" height="324" rx="4" fill="#f6f5f5" stroke="#d6d3d3" stroke-width="1"/>
+  <rect x="17" y="44" width="426" height="270" fill="url(#dotGrid)"/>
+  <text x="28" y="34" class="hdr" fill="#171515">DEFENSE-IN-DEPTH CIRCUIT TOPOLOGY</text>
+  <text x="432" y="34" text-anchor="end" class="micro" fill="#6c6767">3-TIER BUS · 6 PORTS</text>
+  <line x1="16" y1="44" x2="444" y2="44" stroke="#d6d3d3" stroke-width="1"/>
+
+  <!-- Orthogonal PCB Traces & Junctions -->
+  <g><path d="M 124 106 V 130 H 206 V 150" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 124 106 V 130 H 206 V 150" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:0.00s"/><path d="M 336 106 V 130 H 254 V 150" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 336 106 V 130 H 254 V 150" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:0.50s"/><path d="M 212 84 H 248" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 212 84 H 248" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:1.00s"/><path d="M 158 180 H 176" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 158 180 H 176" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:0.30s"/><path d="M 302 180 H 284" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 302 180 H 284" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:0.80s"/><path d="M 206 210 V 230 H 124 V 252" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 206 210 V 230 H 124 V 252" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:1.20s"/><path d="M 254 210 V 230 H 336 V 252" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 254 210 V 230 H 336 V 252" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:1.60s"/><path d="M 212 274 H 248" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 212 274 H 248" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:2.00s"/><path d="M 86 106 V 156" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 86 106 V 156" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:1.40s"/><path d="M 86 204 V 252" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 86 204 V 252" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:1.80s"/><path d="M 374 106 V 156" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 374 106 V 156" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:0.60s"/><path d="M 374 204 V 252" fill="none" stroke="#d6d3d3" stroke-width="1.3"/><path d="M 374 204 V 252" fill="none" stroke="#171515" stroke-width="1.5" stroke-dasharray="8 110" class="pulse" style="animation-delay:2.20s"/></g>
+  <g><rect x="121.5" y="127.5" width="5" height="5" fill="#171515"/><rect x="333.5" y="127.5" width="5" height="5" fill="#171515"/><rect x="203.5" y="127.5" width="5" height="5" fill="#171515"/><rect x="251.5" y="127.5" width="5" height="5" fill="#171515"/><rect x="203.5" y="227.5" width="5" height="5" fill="#171515"/><rect x="251.5" y="227.5" width="5" height="5" fill="#171515"/><rect x="121.5" y="227.5" width="5" height="5" fill="#171515"/><rect x="333.5" y="227.5" width="5" height="5" fill="#171515"/></g>
+
+  <!-- Central Core Bus Block -->
+  <rect x="176" y="150" width="108" height="60" rx="3" fill="#171515" stroke="#171515" stroke-width="1.5"/>
+  <rect x="181" y="155" width="98" height="50" rx="1.5" fill="none" stroke="#fdfcfc" stroke-opacity="0.35" stroke-width="0.8"/>
+  <text x="230" y="177" text-anchor="middle" class="core" fill="#fdfcfc">0xR3TRO</text>
+  <text x="230" y="191" text-anchor="middle" class="micro" fill="#fdfcfc" opacity="0.75">VERIFIABLE CORE</text>
+
+  <!-- 6 Tier Cards -->
+  <g>
+  <g>
+    <rect x="36" y="62" width="176" height="44" rx="3" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+    <rect x="36" y="62" width="176" height="2.5" fill="#171515" opacity="0.7"/>
+    <text x="44" y="80" class="port" fill="#6c6767">P04</text>
+    <text x="66" y="80" class="node" fill="#171515">TRUST FABRIC</text>
+    <text x="44" y="96" class="micro" fill="#6c6767">Vault · Merkle · DID [3m]</text>
+  </g>
+  <g>
+    <rect x="248" y="62" width="176" height="44" rx="3" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+    <rect x="248" y="62" width="176" height="2.5" fill="#171515" opacity="0.7"/>
+    <text x="256" y="80" class="port" fill="#6c6767">P05</text>
+    <text x="278" y="80" class="node" fill="#171515">ONCHAIN SURFACE</text>
+    <text x="256" y="96" class="micro" fill="#6c6767">Fault · Ledger [2m]</text>
+  </g>
+  <g>
+    <rect x="30" y="158" width="128" height="44" rx="3" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+    <rect x="30" y="158" width="128" height="2.5" fill="#171515" opacity="0.7"/>
+    <text x="38" y="176" class="port" fill="#6c6767">P02</text>
+    <text x="60" y="176" class="node" fill="#171515">SOC SIGNAL</text>
+    <text x="38" y="192" class="micro" fill="#6c6767">Mesh · Case [4m]</text>
+  </g>
+  <g>
+    <rect x="302" y="158" width="128" height="44" rx="3" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+    <rect x="302" y="158" width="128" height="2.5" fill="#171515" opacity="0.7"/>
+    <text x="310" y="176" class="port" fill="#6c6767">P03</text>
+    <text x="332" y="176" class="node" fill="#171515">VERIF. AI</text>
+    <text x="310" y="192" class="micro" fill="#6c6767">Search · Lab [3m]</text>
+  </g>
+  <g>
+    <rect x="36" y="252" width="176" height="44" rx="3" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+    <rect x="36" y="252" width="176" height="2.5" fill="#171515" opacity="0.7"/>
+    <text x="44" y="270" class="port" fill="#6c6767">P01</text>
+    <text x="66" y="270" class="node" fill="#171515">FOUNDATION</text>
+    <text x="44" y="286" class="micro" fill="#6c6767">Events · Runtime [4m]</text>
+  </g>
+  <g>
+    <rect x="248" y="252" width="176" height="44" rx="3" fill="#fdfcfc" stroke="#d6d3d3" stroke-width="1"/>
+    <rect x="248" y="252" width="176" height="2.5" fill="#171515" opacity="0.7"/>
+    <text x="256" y="270" class="port" fill="#6c6767">P06</text>
+    <text x="278" y="270" class="node" fill="#171515">0xC0R3-OPS</text>
+    <text x="256" y="286" class="micro" fill="#6c6767">Reference Deploy [1m]</text>
+  </g></g>
+
+  <line x1="16" y1="314" x2="444" y2="314" stroke="#d6d3d3" stroke-width="1"/>
+  <text x="28" y="331" class="micro" fill="#6c6767">ANONYMITY IS NOT A MASK — IT'S A SHIELD</text>
+  <text x="432" y="331" text-anchor="end" class="micro" fill="#3b3838">17 MODULES · PRIV</text>
+
+  <!-- RIGHT TOP: Axis-Calibrated Telemetry -->
+  <rect x="460" y="16" width="404" height="162" rx="4" fill="#f6f5f5" stroke="#d6d3d3" stroke-width="1"/>
+  <text x="476" y="35" class="hdr" fill="#171515">CONTRIBUTION TELEMETRY</text>
+  <text x="848" y="35" text-anchor="end" class="val" fill="#171515">624 TOTAL</text>
+  <line x1="460" y1="45" x2="864" y2="45" stroke="#d6d3d3" stroke-width="1"/>
+  <line x1="574.0" y1="54" x2="574.0" y2="150" stroke="#e6e3e3" stroke-dasharray="2 3" stroke-width="0.9"/><text x="574.0" y="162" text-anchor="middle" class="tick" fill="#9a9595">0%</text><line x1="632.0" y1="54" x2="632.0" y2="150" stroke="#e6e3e3" stroke-dasharray="2 3" stroke-width="0.9"/><text x="632.0" y="162" text-anchor="middle" class="tick" fill="#9a9595">25%</text><line x1="690.0" y1="54" x2="690.0" y2="150" stroke="#e6e3e3" stroke-dasharray="2 3" stroke-width="0.9"/><text x="690.0" y="162" text-anchor="middle" class="tick" fill="#9a9595">50%</text><line x1="748.0" y1="54" x2="748.0" y2="150" stroke="#e6e3e3" stroke-dasharray="2 3" stroke-width="0.9"/><text x="748.0" y="162" text-anchor="middle" class="tick" fill="#9a9595">75%</text><line x1="806.0" y1="54" x2="806.0" y2="150" stroke="#e6e3e3" stroke-dasharray="2 3" stroke-width="0.9"/><text x="806.0" y="162" text-anchor="middle" class="tick" fill="#9a9595">100%</text>
+  <text x="476" y="72" class="xs" fill="#3b3838">COMMITS</text><rect x="574.0" y="62" width="232" height="12" rx="1.5" fill="#eceaea"/><rect x="574.0" y="62" width="164.3" height="12" rx="1.5" fill="#171515"/><text x="848" y="72" text-anchor="end" class="val" fill="#171515">174</text><text x="476" y="94" class="xs" fill="#3b3838">PULL REQ</text><rect x="574.0" y="84" width="232" height="12" rx="1.5" fill="#eceaea"/><rect x="574.0" y="84" width="114.3" height="12" rx="1.5" fill="#484444"/><rect x="574.0" y="84" width="114.3" height="12" rx="1.5" fill="url(#bpHatch)" opacity="0.22"/><text x="848" y="94" text-anchor="end" class="val" fill="#171515">71</text><text x="476" y="116" class="xs" fill="#3b3838">ISSUES</text><rect x="574.0" y="106" width="232" height="12" rx="1.5" fill="#eceaea"/><rect x="574.0" y="106" width="232.0" height="12" rx="1.5" fill="#767171"/><text x="848" y="116" text-anchor="end" class="val" fill="#171515">350</text><text x="476" y="138" class="xs" fill="#3b3838">NEW REPOS</text><rect x="574.0" y="128" width="232" height="12" rx="1.5" fill="#eceaea"/><rect x="574.0" y="128" width="79.5" height="12" rx="1.5" fill="#a39e9e"/><rect x="574.0" y="128" width="79.5" height="12" rx="1.5" fill="url(#bpHatch)" opacity="0.22"/><text x="848" y="138" text-anchor="end" class="val" fill="#171515">26</text>
+
+  <!-- RIGHT BOTTOM: Stack Matrix -->
+  <rect x="460" y="190" width="404" height="150" rx="4" fill="#f6f5f5" stroke="#d6d3d3" stroke-width="1"/>
+  <text x="476" y="209" class="hdr" fill="#171515">LANGUAGE STACK MATRIX</text>
+  <text x="848" y="209" text-anchor="end" class="micro" fill="#6c6767">10 PUB · 25 PRIV</text>
+  <line x1="460" y1="217" x2="864" y2="217" stroke="#e6e3e3" stroke-width="1"/>
+  <text x="476" y="232" class="xs" fill="#171515">JavaScript</text><rect x="574" y="224" width="178" height="8" rx="1" fill="#eceaea"/><rect x="574" y="224" width="59.3" height="8" rx="1" fill="#171515"/><text x="796" y="232" text-anchor="end" class="xs" fill="#3b3838">33%</text><text x="848" y="232" text-anchor="end" class="micro" fill="#6c6767">5r</text><text x="476" y="252" class="xs" fill="#171515">Python</text><rect x="574" y="244" width="178" height="8" rx="1" fill="#eceaea"/><rect x="574" y="244" width="59.3" height="8" rx="1" fill="#484444"/><text x="796" y="252" text-anchor="end" class="xs" fill="#3b3838">33%</text><text x="848" y="252" text-anchor="end" class="micro" fill="#6c6767">5r</text><text x="476" y="272" class="xs" fill="#171515">C#</text><rect x="574" y="264" width="178" height="8" rx="1" fill="#eceaea"/><rect x="574" y="264" width="23.7" height="8" rx="1" fill="#767171"/><text x="796" y="272" text-anchor="end" class="xs" fill="#3b3838">13%</text><text x="848" y="272" text-anchor="end" class="micro" fill="#6c6767">2r</text><text x="476" y="292" class="xs" fill="#171515">TypeScript</text><rect x="574" y="284" width="178" height="8" rx="1" fill="#eceaea"/><rect x="574" y="284" width="23.7" height="8" rx="1" fill="#a39e9e"/><text x="796" y="292" text-anchor="end" class="xs" fill="#3b3838">13%</text><text x="848" y="292" text-anchor="end" class="micro" fill="#6c6767">2r</text><text x="476" y="312" class="xs" fill="#171515">C</text><rect x="574" y="304" width="178" height="8" rx="1" fill="#eceaea"/><rect x="574" y="304" width="11.9" height="8" rx="1" fill="#a39e9e"/><text x="796" y="312" text-anchor="end" class="xs" fill="#3b3838"> 7%</text><text x="848" y="312" text-anchor="end" class="micro" fill="#6c6767">1r</text>
+  <text x="476" y="331" class="micro" fill="#6c6767">STATUS: <tspan fill="#171515">OPERATIONAL</tspan></text>
+  <text x="848" y="331" text-anchor="end" class="micro" fill="#3b3838">STREAK: 5D · ACTIVE: 36D</text>
+</svg>
